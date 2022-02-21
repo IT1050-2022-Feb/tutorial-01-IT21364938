@@ -6,6 +6,19 @@
 
 int main() {
   
+  int m1, m2;
+  float avg;
+
+  //input marks
+  printf("Enter mark 1 : ");
+  scanf("%d", &m1);
+  printf("Enter mark 2 : ");
+  scanf("%d", &m2);
+
+  //calculate and output the average
+  avg=(m1+m2)/2;
+  printf("Average mark : %.2f", avg);
+
   return 0;
 }
 
